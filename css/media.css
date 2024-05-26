@@ -1,0 +1,289 @@
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1300px) {
+    .menu nav ul {
+        gap: 19px;
+    }
+
+    .menu nav ul li a {
+        padding: 3px 16px;
+    }
+
+    .firstSectionContent {
+        row-gap: 40px;
+    }
+
+    .firstSectionContent h1 {
+        letter-spacing: 43px;
+        font-size: 55px;
+    }
+
+    .firstSectionContent span {
+        font-size: 20px;
+    }
+
+    .sectionTwoBlocks .block span {
+        font-size: 18px;
+    }
+
+    .sectionTwoBlocks .block h2 {
+        font-size: 35px;
+    }
+
+    .shashlikBlud {
+        width: 500px;
+    }
+
+    .sectionThreeBlocks {
+        gap: 150px;
+    }
+
+    .sectionFor .sectionTwoBlocks {
+        gap: 84px;
+    }
+
+    .sectionFor .sectionTwoBlocks .block:last-child {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .sectionTwoBlocks .block span {
+        letter-spacing: 0;
+    }
+
+    .sectionTwoBlocks .block h2 {
+        letter-spacing: 0;
+        font-size: 30px;
+    }
+
+    .sectionTwoBlocks .block p {
+        padding-right: 0;
+    }
+
+    .text-menu1{
+        font-size: 14px;
+        }
+
+}
+
+@media only screen and (max-width: 1250px) {
+    .first-input input{
+        width: 245px;
+        height: 26px;
+    }
+
+    .last-input input{
+        width: 245px;
+        height: 26px;
+    }
+
+    .second-input input{
+        width: 245px;
+        height: 26px;
+    }
+
+    .big-input input{
+        width: 980px;
+        height: 147px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .menu nav ul {
+        display: none;
+    }
+
+    .hamburger-menu{
+            display: block;
+    }
+
+    .logo img {
+        width: 170px;
+    }
+
+    .sectionTwoBlocks {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .sectionThreeBlocks .block p {
+        font-size: 16px;
+    }
+
+    .sectionThreeBlocks {
+        gap: initial;
+        justify-content: space-between;
+    }
+
+    .sectionFiveBlocks {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .sectionFiveBlocks .block {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sectionFiveBlocks .hoverBlock {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .photo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-menu p{
+        text-align: center;
+    }
+
+    .food-head{
+        flex-direction: column;
+    }
+
+    .background-photos{
+        height: 1800px;
+    }
+
+    .three-input{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    .headerBlock {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .menu__btn{
+            margin-top: 20px;
+    }
+
+    .menu__box{ 
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .firstSectionContent h1 {
+        font-size: 45px;
+        letter-spacing: 10px;
+    }
+
+    .firstSectionContent span {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .footer nav ul a{
+        font-size: 15px;
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sectionThreeBlocks {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .text-menu1{
+        font-size: 15px;
+    }
+
+    .sherepaman{
+        width: 300px;
+    }
+
+    .footer nav ul a{
+        font-size: 13px;
+        gap: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+    .footer nav ul a{
+        font-size: 15px;
+        gap: 25px;
+    }
+    .footer nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+    height: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 530px){
+    .shashlikBlud{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .sectionTwoBlocks .block p {
+        font-size: 14px;
+    }
+
+    .sectionFor img {
+        width: 80%;
+    }
+
+    .text-menu1{
+        font-size: 11px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 420px) {
+    .text-menu1{
+    font-size: 9px;
+    }
+
+    .photoshefpower{
+        width: 300px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 375px) {
+    .text-menu1{
+    font-size: 6px;
+    }
+
+}
+
+@media only screen and (max-width: 362px) {
+    .text-food2 h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+
+}

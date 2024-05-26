@@ -1,0 +1,284 @@
+@media only screen and (max-width: 1300px) {
+    .menu nav ul {
+        gap: 19px;
+    }
+
+    .menu nav ul li a {
+        padding: 3px 16px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 1100px) {
+    .text-head{
+        gap: 115px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .menu nav ul {
+        display: none;
+    }
+
+    .logo img {
+        width: 170px;
+    }
+
+    .hamburger-menu{
+        display: block;
+}
+
+.headerBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu__btn{
+    margin-top: 20px;
+}
+
+.menu__box{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .photo-text{
+        flex-direction: column-reverse;
+    }
+
+    .text{
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .text p{
+        top: 10px;   
+
+    }
+
+    .photo img{
+        margin-top: 50px;
+        width: 45%;
+    }
+
+    .photo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-photo{
+        flex-direction: column;
+    }
+
+    .photo2{
+        display: flex;
+        justify-content: center;
+        margin-top: 130px;
+    }
+
+    .photo2 img{
+        width: 35%;
+    }
+
+    .container2{
+        margin-top: 150px;
+    }
+
+    .foot-photo{
+        position: relative;
+        top: 150px;
+    }
+
+    .background-photos2{
+        position: relative;
+        top: 150px;
+    }
+
+    .shaurma{
+        display: flex;
+        align-self: center;
+    }
+
+    .text2 h1{
+            text-align: center;
+            align-self: center;
+    }
+
+    .text2 h2{
+        text-align: center;
+}
+
+.text2 p{
+    text-align: center;
+    align-self: center;
+    top: 35px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 890px) {
+    .text-head{
+        gap:70px;
+    }
+}   
+
+@media only screen and (max-width:755px) {
+    .text-head{
+        gap:40px;
+    }
+} 
+
+@media only screen and (max-width:665px) {
+    .text-head{
+        gap:20px;
+    }
+} 
+
+@media only screen and (max-width: 650px) {
+    .footer nav ul a{
+        font-size: 15px;
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width:603px) {
+    .text-head{
+        gap:10px;
+    }
+
+    .container2 h1{
+        font-size: 50px;
+    }
+    
+    .container2 p{
+        font-size: 15px;
+    }
+
+    .text5 img{
+        width: 70%;
+    }
+
+} 
+
+@media only screen and (max-width: 600px) {
+    .footer nav ul a{
+        font-size: 13px;
+        gap: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+    .footer nav ul a{
+        font-size: 15px;
+        gap: 25px;
+    }
+    .footer nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+    height: 450px;
+    }
+
+
+    .text p{
+        width: auto;
+        font-size: 14px;
+    }
+
+    .text2 p{
+        width: auto;
+        font-size: 13px;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:505px) {
+    .text-head{
+        gap:10px;
+    }
+
+    .container2 h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .container2 p{
+        text-align: center;
+    }
+
+    .text5{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text5 img{
+        align-items: center;
+        align-self: center;
+        text-align: center;
+    }
+
+} 
+
+
+
+
+
+
+@media only screen and (max-width: 420px) {
+
+    .container2 h1{
+        font-size: 35px;
+    }
+
+    .text5 img{
+        width: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .text2 h1{
+        font-size:27px;
+    }
+}
+
+
+@media only screen and (max-width: 362px) {
+
+
+
+    .text h2{
+        font-size: 25px;
+    }
+
+    .text h1{
+        font-size:27px;
+    }
+
+}
+

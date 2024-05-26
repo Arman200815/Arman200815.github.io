@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    font-size: 20px;
+    width: 100%;
+    background-color: #00000088;
+}
+
+.headerBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu nav ul {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+
+.menu nav ul li {
+    list-style: none;
+}
+
+.menu nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 5%;
+    text-decoration: none;
+    padding: 3px 26px;
+    border: 1px solid transparent;
+    transition: 1s;
+}
+
+.menu nav ul li a:hover {
+    padding: 3px 26px;
+    border: 1px solid #fff;
+}
+
+
+
+.firstSection {
+    background-image: url("./../assets/img/Group 9.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.background-photos2{
+    background-image: url("./../assets/img/back.png");
+    width: 100%;
+    height: 650px;
+}
+
+.form-text{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+
+}
+
+.form-text h1{
+    width: 152px;
+    height: 33px;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+}
+
+.three-input{
+    display: flex;
+    justify-content: center;
+    gap: 117px;
+    position: relative;
+    top: 150px;
+    
+}
+
+.first-input input{
+    width: 328px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #1d1d1d;;
+    font-family: Rubik;
+    padding-left: 5px;
+    font-size: 15px;
+    color: #000000;
+
+}
+
+.last-input input{
+    width: 328px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #1d1d1d;;
+    font-family: Rubik;
+    padding-left: 5px;
+    font-size: 15px;
+    color: #000000;
+
+}
+
+
+
+.second-input input{
+    width: 328px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #1d1d1d;
+    font-family: Rubik;
+    padding-left: 5px;
+    font-size: 15px;
+    color: #000000;
+
+}
+
+.big-input{
+    display: flex;
+    justify-content: center;
+}
+
+.big-input input{
+    width: 1218px;
+    height: 182px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #1d1d1d;;
+    font-family: Rubik;
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    top: 200px;
+    padding-left: 15px;
+}
+
+.button-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.button-1 button{
+    width: 185px;
+    height: 37px;
+    background-color: black;
+    border: 1px solid #C6B089;
+    color: #C6B089;
+    font-size: 18px;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    position: relative;
+    top: 225px;
+    cursor: pointer;
+}
+
+
+
+.foot-photo iframe{
+    width:100%;
+    height:400px;
+}
+
+.background-photos3{
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+}
+
+.footer{
+    width: 100%;
+    height: 91px;
+    background-color: #000000;
+}
+
+.footer nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 68px;
+    position: relative;
+    top: 35px;
+}
+
+.footer nav ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+}
+
+.hamburger{
+    display: none;
+}
+
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+  }
+  
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  
+  .hamburger-menu{
+          display: none;
+  }

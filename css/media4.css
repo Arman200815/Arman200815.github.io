@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1343px) {
+    .background-photos{
+        display: none;
+    }
+
+    .foot-photo{
+        position: relative;
+        top: 180px;
+    }
+
+    .container3{
+        margin-top: 180px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .menu nav ul {
+        gap: 19px;
+    }
+
+    .menu nav ul li a {
+        padding: 3px 16px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .menu nav ul {
+        display: none;
+    }
+
+    .logo img {
+        width: 170px;
+    }
+
+    .hamburger-menu{
+        display: block;
+}
+
+.headerBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu__btn{
+    margin-top: 20px;
+}
+
+.menu__box{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .text h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .text p{
+        text-align: center;
+        }
+}
+
+@media only screen and (max-width: 650px) {
+    .footer nav ul a{
+        font-size: 15px;
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer nav ul a{
+        font-size: 13px;
+        gap: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+    .footer nav ul a{
+        font-size: 15px;
+        gap: 25px;
+    }
+    .footer nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+    height: 450px;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 380px) {
+
+.text h1{
+    font-size: 22px;
+}
+}
+
+
